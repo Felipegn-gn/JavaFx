@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="734.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="159.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sistema Odontológico" wrappingWidth="368.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="lbl_nome" layoutX="133.0" layoutY="128.0" prefHeight="25.0" prefWidth="274.0" />
+      <Label layoutX="133.0" layoutY="107.0" text="Nome completo">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="107.0" text="ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lbl_id" layoutX="38.0" layoutY="128.0" prefHeight="25.0" prefWidth="62.0" />
+      <Label layoutX="433.0" layoutY="109.0" text="Data de nascimento">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="lbl_nascimento" layoutX="433.0" layoutY="128.0" />
+      <Label layoutX="38.0" layoutY="171.0" prefHeight="20.0" prefWidth="42.0" text="CPF">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lbl_cpf" layoutX="38.0" layoutY="191.0" prefHeight="25.0" prefWidth="118.0" />
+      <TextField fx:id="lbl_telefone" layoutX="186.0" layoutY="191.0" />
+      <Label layoutX="186.0" layoutY="171.0" text="Telefone">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="353.0" layoutY="190.0" text="Sexo">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="radio_masculino" layoutX="398.0" layoutY="173.0" mnemonicParsing="false" text="Masculino" />
+      <RadioButton fx:id="radio_feminino" layoutX="398.0" layoutY="202.0" mnemonicParsing="false" text="Feminino" />
+      <TextField fx:id="lbl_email" layoutX="38.0" layoutY="246.0" />
+      <Label layoutX="41.0" layoutY="226.0" text="Email">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="495.0" layoutY="171.0" text="CEP">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lbl_cep" layoutX="495.0" layoutY="190.0" prefHeight="25.0" prefWidth="138.0" />
+      <TextField fx:id="lbl_endereco" layoutX="213.0" layoutY="246.0" prefHeight="25.0" prefWidth="243.0" />
+      <Label layoutX="213.0" layoutY="226.0" text="Endereço">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="498.0" layoutY="226.0" text="Numero">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lbl_numero" layoutX="495.0" layoutY="246.0" prefHeight="25.0" prefWidth="118.0" />
+      <Label layoutX="245.0" layoutY="67.0" text="Cadastro de cliente">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="285.0" text="Cidade">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lbl_cidade" layoutX="38.0" layoutY="302.0" />
+      <TextField fx:id="lbl_uf" layoutX="196.0" layoutY="302.0" prefHeight="25.0" prefWidth="54.0" />
+      <Label layoutX="196.0" layoutY="285.0" text="UF">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_salvar" layoutX="291.0" layoutY="294.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="70.0" text="Salvar" />
+      <Button fx:id="btn_cancelar" layoutX="372.0" layoutY="294.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="70.0" text="Cancelar" />
+      <Button fx:id="btn_excluir" layoutX="456.0" layoutY="294.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="70.0" text="Excluir" />
+      <Button fx:id="btn_atualizar" layoutX="537.0" layoutY="294.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="70.0" text="Atualizar" />
+      <TableView fx:id="table_informacoes" layoutX="33.0" layoutY="349.0" prefHeight="344.0" prefWidth="600.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="ID" />
+          <TableColumn prefWidth="248.0" text="Nome" />
+            <TableColumn prefWidth="136.0" text="Telefone" />
+            <TableColumn prefWidth="140.0" text="CPF" />
+        </columns>
+      </TableView>
+      <Button layoutX="462.0" layoutY="701.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="162.0" text="Prosseguir Agendamento" textFill="#72cd78">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
