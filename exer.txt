@@ -1,0 +1,48 @@
+1. Apresente o nome dos clientes que iniciam com a letra J
+
+2. Quantos são os autores cadastrados no sistema
+
+3. Apresente quantos livros o autor "Roberto Martins Figueiredo" escreveu
+SELECT nome_cli FROM cliente WHERE nome_cli LIKE 'J%';
+
+4. Apresente o título do livro e seu gênero ordenados por gênero e título.
+
+5. Apresente o nome do autor e a quantidade de livros que ele escreveu.
+
+6. Apresente o nome dos autores que escreveram mais de um livro
+
+7. Apresente o nome do livro e o nome do seu autor
+
+8. Apresente o nome de cada cliente e o valor total de suas compras ordenando pelo valor das compras de forma decrescente
+
+9. Apresente os clientes que compraram o livro "Pelas Ruas de Calcutá", utilizando "like"
+
+10. Apresente quantos exemplares existem em estoque dos livros da autora "Maria Jose Valero" , utilizando "like"
+
+11. Apresente o nome do autor e a quantidade de livros dele que já foram vendidos ordenandos do maior para menor
+
+13. Qual a quantidade total de livros vendidos
+
+14. Quais são os livros de "medicina"
+
+15. Apresente a quantidade em estoque do livro O Que Esperar Quando Você Esta Esperando usando like
+
+16. Qual é o valor do livro mais caro;
+
+17. Apresente os livros que apresentam valor em estoque maior que 10
+
+18. Qual o valor total das vendas
+
+19. Quantos gêneros tem cadastrados no banco?
+
+20. Apresente os gêneros que não possuem nenhum livro neste BD
+
+21. Selecione a média de preço dos livros.
+
+22. Quais livros tem o preço acima da média
+
+23. Qual o nome do livro mais barato
+
+24. Selecionar os autores que escreveram somente um livro
+
+25. Quem são os autores do livro ‘Metodologias Ativas Na Pratica Pedagogica’?
